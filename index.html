@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARCIAL</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="admin.html">Admin</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Sign Up</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">Action</a></li>
+                </ul>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <!--Noticias-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="imgs\B5D5RJORDFFQPAS34MAGQBD4EM.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Noticia 1</h5>
+                <p class="card-text">Clan del Golfo acepta invitación de Petro para sentarse a una negociación de paz</p>
+                <a href="https://www.elespectador.com/colombia-20/paz-y-memoria/clan-del-golfo-o-agc-acepta-invitacion-de-presidente-petro-para-sentarse-a-una-negociacion-de-paz/" class="btn btn-primary">Más Información</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="imgs\X7O6GIUD6FCIROF73V4A7RIG6Q.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Noticia 2</h5>
+                <p class="card-text">El Banco de Japón aumentó su tasa de interés por primera vez en 17 años</p>
+                <a href="https://www.elespectador.com/economia/macroeconomia/el-banco-de-japon-aumento-su-tasa-de-interes-por-primera-vez-en-17-anos/" class="btn btn-primary">Más Información</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="imgs\CA3DT23BBRRBJFVWDUP7OL3UE4.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Noticia 3</h5>
+                <p class="card-text">Hong Kong amplía sus poderes de represión y se inclina ante Beijing</p>
+                <a href="https://www.elespectador.com/mundo/mas-paises/hong-kong-amplia-sus-poderes-de-represion-y-se-inclina-ante-beijing/" class="btn btn-primary">Más Información</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-box">
+        <footer>
+          <div class="container text-center">
+            <h2>Otras páginas de noticias...</h2>
+            <table class="mx-auto" style="width: 80%; margin-top: 50px;">
+              <thead>
+                <tr>
+                  <th>Portales de Noticias Nacionales</th>
+                  <th>Portales de Noticias Internacionales</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <ul>
+                      <li><a href="https://www.eltiempo.com">El Tiempo </a></li>
+                      <li><a href="https://www.elespectador.com">El Espectador </a></li>
+                      <li><a href="https://www.semana.com">Semana </a></li>
+                      <li><a href="https://www.rcn.com">RCN Noticias </a></li>
+                      <li><a href="https://www.caracol.com">Caracol Noticias </a></li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li><a href="https://www.bbc.com/news">BBC News</a></li>
+                      <li><a href="https://www.cnn.com">CNN</a></li>
+                      <li><a href="https://www.nytimes.com">The New York Times</a></li>
+                      <li><a href="https://www.theguardian.com">The Guardian</a></li>
+                      <li><a href="https://www.aljazeera.com">Al Jazeera</a></li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </footer>
+      </div>
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
